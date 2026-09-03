@@ -1,0 +1,51 @@
+# dependencies (bun install)
+node_modules
+
+# output
+out
+dist
+*.tgz
+
+# code coverage
+coverage
+*.lcov
+
+# logs
+logs
+_.log
+report.[0-9]_.[0-9]_.[0-9]_.[0-9]_.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# caches
+.eslintcache
+.cache
+*.tsbuildinfo
+
+# IntelliJ based IDEs
+.idea
+
+# Finder (MacOS) folder config
+.DS_Store
+
+# generated discovery cache (real business numbers, regenerable)
+fixtures/cache/
+
+# live-call artifacts (kept local, not published)
+scripts/negotiate-test.ts
+ARCHITECTURE.md
+
+# live-call test log + helpers (local only)
+results.md
+replacements.txt
+pr-contribution/
+
+# Devpost / video submission content (kept local, not part of the app repo)
+DEVPOST-STORY.md
+DEVPOST.md
+VIDEO-SCRIPT.md
